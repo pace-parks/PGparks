@@ -1,0 +1,56 @@
+.booking-card {
+    position: relative;
+    font-size: 12px;  /* Small font size */
+    overflow: hidden;
+     /* Limit to 2 lines max-height: 40px;  */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+  }
+  
+  .booking-header {
+    font-size: 12px;  /* Smaller font for time/title */
+    line-height: 1.4;
+    display: block;
+  }
+  
+  .booking-details {
+    font-size: 12px;  /* Small font for details */
+    display: none;  /* Hidden by default */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Slight dark background for hover */
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .booking-card:hover .booking-details {
+    display: block;  /* Show details on hover */
+  }
+  
+  .booking-card:hover .booking-header {
+    font-size: 14px;  /* Slightly larger font size for title/time on hover */
+  }
+  
+  .past-date {
+    background-color: #f1f1f1 !important;  /* Light background for past dates */
+    color: #aaa !important;  /* Make text lighter */
+    cursor: not-allowed;  /* Disable interaction */
+    /* border-radius: 15px; */
+  }
+
+  .calendar-container {
+    border-radius: 15px; /* Rounded corners for the whole calendar */
+    overflow: hidden; /* Ensures the rounded corners are maintained */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Soft shadow around the whole calendar */
+    background-color: white; /* Background color for the calendar */
+    margin-bottom: 15px;
+  }
+  .current-month {
+    border-radius: 15px;
+  }
+    
+  
