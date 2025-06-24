@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pace-parks/PGparks.git/static/css/main.68cc7126.css",
+    "main.js": "/pace-parks/PGparks.git/static/js/main.1e316329.js",
+    "static/css/399.28cc9c8d.chunk.css": "/pace-parks/PGparks.git/static/css/399.28cc9c8d.chunk.css",
+    "static/js/399.1ac62d56.chunk.js": "/pace-parks/PGparks.git/static/js/399.1ac62d56.chunk.js",
+    "static/js/67.1e3158ab.chunk.js": "/pace-parks/PGparks.git/static/js/67.1e3158ab.chunk.js",
+    "index.html": "/pace-parks/PGparks.git/index.html",
+    "main.68cc7126.css.map": "/pace-parks/PGparks.git/static/css/main.68cc7126.css.map",
+    "main.1e316329.js.map": "/pace-parks/PGparks.git/static/js/main.1e316329.js.map",
+    "399.28cc9c8d.chunk.css.map": "/pace-parks/PGparks.git/static/css/399.28cc9c8d.chunk.css.map",
+    "399.1ac62d56.chunk.js.map": "/pace-parks/PGparks.git/static/js/399.1ac62d56.chunk.js.map",
+    "67.1e3158ab.chunk.js.map": "/pace-parks/PGparks.git/static/js/67.1e3158ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68cc7126.css",
+    "static/js/main.1e316329.js"
+  ]
+}
