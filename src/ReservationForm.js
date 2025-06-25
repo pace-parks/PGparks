@@ -59,7 +59,7 @@ const ReservationForm = () => {
         // })
         // .then(res=> res.json())
         // .then(data=> navigate('/reservation', {state: data}))
-        navigate('/reservation')
+        navigate('/reservation', {state: 'Data is successfully submitted'})
     }
 
     return (
