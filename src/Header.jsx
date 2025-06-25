@@ -22,76 +22,76 @@ const Header = () => {
             <ul className="navbar-nav" style={{ gap: '30px' }}>
               {/* Dropdown for HOME */}
               <li className="nav-item" >
-                <Link className="nav-link" style={{ color: 'white' }} href="/">HOME</Link>
+                <Link className="nav-link" style={{ color: 'white' }} to="/">HOME</Link>
               </li>
 
               {/* Dropdown for Rentals */}
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: 'white'}}>
+                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color: 'white'}}>
                   RENTALS
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-                  <li><Link className="dropdown-item" href="#">Historic Venue</Link></li>
-                  <li><Link className="dropdown-item" href="#">Memberships & Passes</Link></li>
-                  <li><Link className="dropdown-item" href="#">Permits & Policies</Link></li>
-                  <li><Link className="dropdown-item" href="/reservation">Reservation</Link></li>
+                  <li><Link className="dropdown-item" to="#">Historic Venue</Link></li>
+                  <li><Link className="dropdown-item" to="#">Memberships & Passes</Link></li>
+                  <li><Link className="dropdown-item" to="#">Permits & Policies</Link></li>
+                  <li><Link className="dropdown-item" to="/reservation">Reservation</Link></li>
                 </ul>
               </li>
 
               {/* Dropdown for ABOUT */}
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
+                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
                   ACTIVITIES & EVENTS
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownAbout">
                   <li><Link className="dropdown-item" to="/events">Events</Link></li>
-                  <li><Link className="dropdown-item" href="#">Sports</Link></li>
-                  <li><Link className="dropdown-item" href="#">Nature & Outdoors</Link></li>
+                  <li><Link className="dropdown-item" to="#">Sports</Link></li>
+                  <li><Link className="dropdown-item" to="#">Nature & Outdoors</Link></li>
                 </ul>
               </li>
 
               {/* Dropdown for Services */}
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
+                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
                   SERVICES
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownNews">
-                  <li><Link className="dropdown-item" href="#">Seniors</Link></li>
-                  <li><Link className="dropdown-item" href="#">Adults</Link></li>
-                  <li><Link className="dropdown-item" href="#">Teens & Pre-Teens</Link></li>
-                  <li><Link className="dropdown-item" href="#">Children & Youth</Link></li>
-                  <li><Link className="dropdown-item" href="#">Disability</Link></li>
+                  <li><Link className="dropdown-item" to="#">Seniors</Link></li>
+                  <li><Link className="dropdown-item" to="#">Adults</Link></li>
+                  <li><Link className="dropdown-item" to="#">Teens & Pre-Teens</Link></li>
+                  <li><Link className="dropdown-item" to="#">Children & Youth</Link></li>
+                  <li><Link className="dropdown-item" to="#">Disability</Link></li>
                 </ul>
               </li>
 
               {/* Dropdown for Services */}
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
+                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
                   GET INVOLVED
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownNews">
-                  <li><Link className="dropdown-item" href="#">Donations & Scholarships</Link></li>
-                  <li><Link className="dropdown-item" href="#">Partnership</Link></li>
-                  <li><Link className="dropdown-item" href="#">Online Community Engagement</Link></li>
-                  <li><Link className="dropdown-item" href="#">Volunteer Opportunities</Link></li>
+                  <li><Link className="dropdown-item" to="#">Donations & Scholarships</Link></li>
+                  <li><Link className="dropdown-item" to="#">Partnership</Link></li>
+                  <li><Link className="dropdown-item" to="#">Online Community Engagement</Link></li>
+                  <li><Link className="dropdown-item" to="#">Volunteer Opportunities</Link></li>
                 </ul>
               </li>
 
               {/* Dropdown for NEWS */}
               <li className="nav-item dropdown">
-                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
+                <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdownNews" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: 'white' }}>
                   NEWS
                 </Link>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownNews">
-                  <li><Link className="dropdown-item" href="#">Media Kit</Link></li>
-                  <li><Link className="dropdown-item" href="#">News Release</Link></li>
-                  <li><Link className="dropdown-item" href="#">E-Newsletter</Link></li>
+                  <li><Link className="dropdown-item" to="#">Media Kit</Link></li>
+                  <li><Link className="dropdown-item" to="#">News Release</Link></li>
+                  <li><Link className="dropdown-item" to="#">E-Newsletter</Link></li>
                 </ul>
               </li>
 
               {/* Additional nav items */}
               <li className="nav-item" style={{ paddingRight: '100px' }}>
-                <a className="nav-link" style={{ color: 'white' }} href="#">CONTACT</a>
+                <a className="nav-link" style={{ color: 'white' }} to="#">CONTACT</a>
               </li>
             </ul>
           </div>
