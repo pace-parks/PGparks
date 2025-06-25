@@ -17,6 +17,7 @@ const EventPlan = ()=>{
             Please click below to fill out the form and secure your reservation.
             </p>
             <button onClick={() => navigate('/reservation/form')} style={{ cursor: 'pointer', padding: '10px 20px', marginTop: '20px', marginBottom: '20px' }}>Reservation Form</button>
+            <button onClick={() => navigate('/reservation/book')} style={{ cursor: 'pointer', padding: '10px 20px', marginTop: '20px', marginBottom: '20px' }}>Room Booking</button>
           </div>
         </div>
          {

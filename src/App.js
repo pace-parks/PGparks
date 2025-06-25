@@ -30,7 +30,7 @@ function App() {
         <Route path="/reservation" element={<EventPlan />} />
         <Route path="/reservation/form" element={<ReservationForm />} />
         <Route path="/test" element={<Test />} />
-        <Route path="/book" element={<ConferenceRoom />} />
+        <Route path="/reservation/book" element={<ConferenceRoom />} />
         <Route path="/api" element={<TestApi/>} />
       </Routes>
     </Suspense>
