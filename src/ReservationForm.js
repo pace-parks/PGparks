@@ -52,14 +52,14 @@ const ReservationForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch('http://localhost:5000/api/reservation', {
-                method: 'POST',
-                headers: { "Content-Type": 'application/json' },
-                body: JSON.stringify({ reservationForm: formData })
-        })
-        .then(res=> res.json())
-        .then(data=> navigate('/reservation', {state: data}))
-        
+        // fetch('http://localhost:5000/api/reservation', {
+        //         method: 'POST',
+        //         headers: { "Content-Type": 'application/json' },
+        //         body: JSON.stringify({ reservationForm: formData })
+        // })
+        // .then(res=> res.json())
+        // .then(data=> navigate('/reservation', {state: data}))
+        navigate('/reservation')
     }
 
     return (
