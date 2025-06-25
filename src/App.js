@@ -22,7 +22,7 @@ function App() {
     <div className="container-fluid">
       <Header />
       <Suspense fallback={<Spinner/>}>
-    <Router>
+    <Router basename="/PGparks">
       <Routes>
         <Route path='/' element={ <Home />} />
         <Route path="/events" element={<Event />} />

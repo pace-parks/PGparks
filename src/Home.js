@@ -23,7 +23,7 @@ const Home = () => {
                         <div className="carousel-inner" style={{height: '100%'}}>
                             <div className="carousel-item active">
                                 <img
-                                    src="/image/park.png"
+                                    src= {`${process.env.PUBLIC_URL}/image/park.PNG`}
                                     alt="park"
                                     className="d-block w-100"
                                     style={{ height: '500px', objectFit: 'cover', borderRadius: '8px' }}
@@ -31,7 +31,7 @@ const Home = () => {
                             </div>
                             <div className="carousel-item">
                                 <img
-                                    src="/image/baltimore.webp"
+                                    src= {`${process.env.PUBLIC_URL}/image/baltimore.webp`}
                                     alt="park2"
                                     className="d-block w-100"
                                     style={{ height: '500px', objectFit: 'cover', borderRadius: '8px' }}
@@ -39,7 +39,7 @@ const Home = () => {
                             </div>
                             <div className="carousel-item">
                                 <img
-                                    src="/image/picnic.jpg"
+                                    src={`${process.env.PUBLIC_URL}/image/picnic.jpg`}
                                     alt="park3"
                                     className="d-block w-100"
                                     style={{ height: '500px', objectFit: 'cover', borderRadius: '8px' }}
@@ -47,7 +47,7 @@ const Home = () => {
                             </div>
                             <div className="carousel-item">
                                 <img
-                                    src="/image/train.webp"
+                                    src={`${process.env.PUBLIC_URL}/image/train.webp`}
                                     alt="park4"
                                     className="d-block w-100"
                                     style={{ height: '500px', objectFit: 'cover', borderRadius: '8px' }}

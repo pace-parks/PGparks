@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Column 1 */}
         <div className="col-lg-4 col-md-4 d-flex justify-content-start" style={{paddingLeft: "3rem"}}>
           <img
-           src="/image/dept_logo.png"
+           src={`${process.env.PUBLIC_URL}/image/dept_logo.png`}
             alt="Logo"
             style={{ maxWidth: "35%" }}
           />

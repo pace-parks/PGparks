@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
           {/* Logo on the left side */}
           <a href="https://pgparks.com" style={{ marginLeft: '0' }}>
             <img
-              src='/image/dept_logo.png'
+              src={`${process.env.PUBLIC_URL}/image/dept_logo.png`}
               alt="PGParks Header"
               style={{ height: '90px', overflow: 'hidden', display: 'block' }}
             />
@@ -34,7 +34,7 @@ const Header = () => {
                   <li><a className="dropdown-item" href="#">Historic Venue</a></li>
                   <li><a className="dropdown-item" href="#">Memberships & Passes</a></li>
                   <li><a className="dropdown-item" href="#">Permits & Policies</a></li>
-                  <li><a className="dropdown-item" href="/reservation">Reservation</a></li>
+                  <li><Link className="dropdown-item" href="/reservation">Reservation</Link></li>
                 </ul>
               </li>
 
@@ -44,7 +44,7 @@ const Header = () => {
                   ACTIVITIES & EVENTS
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownAbout">
-                  <li><a className="dropdown-item" href="/events">Events</a></li>
+                  <li><Link className="dropdown-item" to="/events">Events</Link></li>
                   <li><a className="dropdown-item" href="#">Sports</a></li>
                   <li><a className="dropdown-item" href="#">Nature & Outdoors</a></li>
                 </ul>
