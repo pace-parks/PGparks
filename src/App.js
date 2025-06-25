@@ -19,10 +19,10 @@ const Footer = lazy(() => import('./Footer'));
 
 function App() {
   return (
+    <Router basename="/PGparks">
     <div className="container-fluid">
       <Header />
       <Suspense fallback={<Spinner/>}>
-    <Router basename="/PGparks">
       <Routes>
         <Route path='/' element={ <Home />} />
         <Route path="/events" element={<Event />} />
@@ -33,12 +33,12 @@ function App() {
         <Route path="/book" element={<ConferenceRoom />} />
         <Route path="/api" element={<TestApi/>} />
       </Routes>
-    </Router>
     </Suspense>
     <Suspense fallback={<div> Loding Footer...</div>}>
    <Footer />
    </Suspense>
     </div>
+     </Router>
   );
 }
 
