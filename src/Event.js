@@ -28,7 +28,6 @@ useEffect(()=>{
 }, [])
 
 const handleClick = (eventSlug)=>{
-    console.log('event: ',eventSlug)
     navigate(`/events/${eventSlug.slug}`, {state: eventSlug});
 }
 // Get the current posts to be displayed on current page

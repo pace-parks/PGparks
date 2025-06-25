@@ -4,7 +4,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 const EventPlan = ()=>{
      const navigate = useNavigate();
      const { state } = useLocation();
-     console.log(state)
     return (
     <>
         <div className="container" style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '20px' }}>

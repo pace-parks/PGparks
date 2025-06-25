@@ -91,7 +91,7 @@ const Header = () => {
 
               {/* Additional nav items */}
               <li className="nav-item" style={{ paddingRight: '100px' }}>
-                <a className="nav-link" style={{ color: 'white' }} to="#">CONTACT</a>
+                <Link className="nav-link" style={{ color: 'white' }} to="#">CONTACT</Link>
               </li>
             </ul>
           </div>
