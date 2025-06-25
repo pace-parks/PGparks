@@ -9,7 +9,7 @@ const EventPlan = ()=>{
     <>
         <div className="container" style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '20px' }}>
           <div className='event-image' style={{ flex: '0 0 60%', maxWidth: '60%', marginTop: '15px'}}>
-            <img  src="/image/eventPlanning.jpeg" alt="event" className='event-img' style={{ width: '100%', height: 'auto', borderRadius: '8px' }} />
+            <img src= {`${process.env.PUBLIC_URL}/image/eventPlanning.jpeg`} alt="event" className='event-img' style={{ width: '100%', height: 'auto', borderRadius: '8px' }} />
           </div>
           <div className='event-content' style={{ flex: '0 0 40%', maxWidth: '30%' }}>
             <h3> <hr/>PRA Reservation</h3> <hr/>
